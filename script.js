@@ -3,19 +3,19 @@ $(".Part-Two-1").hide();
 $(".Part-Two-11").hide();
 $(".Story-Ending-Infamous").hide();
 $(".You-are-button").hide();
-$("#shoe1").click(function() {
+$("#shoe1").hover(function() {
     $(".Part-Two-4").show();
     $(".Part-Two-11").hide();
     $(".Part-Two-1").hide();
     $(".You-are-button").show();
 });
-$("#shoe2").click(function() {
+$("#shoe2").hover(function() {
     $(".Part-Two-11").show();
     $(".Part-Two-4").hide();
     $(".Part-Two-1").hide();
     $(".You-are-button").show();
 });
-$("#shoe3").click(function() {
+$("#shoe3").hover(function() {
     $(".Part-Two-1").show();
     $(".Part-Two-4").hide();
     $(".Part-Two-11").hide();
